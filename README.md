@@ -21,11 +21,14 @@ import { draggable } from 'lit-draggable';
     public render(): TemplateResult {
         const dragHandler = draggable({
             onStart: (event: DraggableEvent) => {
-                // handle start of drag
+                // handle start of drag, capturing initial state and doing compute
             },
             onMove: (event: MoveEvent) => {
-                // handle end of drag
+                // handle the drag, usually updating position or transform
             },
+            onEnd: (event: EndEvent) => {
+                // handle the end of drag
+            }
         });
 
         return html`
