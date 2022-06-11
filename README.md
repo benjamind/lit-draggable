@@ -9,7 +9,7 @@ An async directive that uses the [pointer-tracker](https://github.com/GoogleChro
 Not yet published to NPM! So you will have to install from git repository:
 
 ```bash
-npm add git@github.com:GoogleChromeLabs/pointer-tracker.git
+npm add git@github.com:benjamind/lit-draggable.git
 ```
 
 ## Usage
